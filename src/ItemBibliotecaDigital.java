@@ -16,4 +16,16 @@ public abstract class ItemBibliotecaDigital {
                 "Autor: " + this.autorItem + "\n" +
                 "-_-_-_-_-_-_-_-_-_-_-_-_-_-_-" + "\n";
     }
+
+    public String getTitulo() {
+        return tituloItem;
+    }
+
+    public void baixar() {
+        System.out.println("aaaaaa");
+    }
+
+    public void visualizar() {
+        System.out.println("aaaaaa");
+    }
 }
